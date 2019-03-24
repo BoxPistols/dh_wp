@@ -8,28 +8,94 @@
 <link href="css/bootstrap-4.2.1.css" rel="stylesheet">
 <link href="css/mystyle.css" rel="stylesheet">
 </head>
-<body style="padding-top: 70px">
+<body style="padding-top: 56px">
+
 <!--header-->
-<header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#">MyWorks</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="#profie">Profie</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#point">Point</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
-        <li class="nav-item dropdown">
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a> </div>
-        </li>
-      </ul>
+<header id="header">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid"> <a class="navbar-brand" href="#">MyWorks</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#profie">Profie</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#point">Point</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+          <li class="nav-item dropdown">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
-<!--/header--> 
-<script src="js/jquery-3.3.1.min.js"></script> 
+<!--/header-->
+
+<section id="jumbotron">
+  <div class="jumbotron jumbotron-fluid bg-transparent">
+    <div class="container">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+</section>
+<!--/section-->
+
+<section id="profile">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8 offset-md-2">
+        <h2 class="text-center">PROFILE</h2>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio optio ex fugit at iure. Quisquam asperiores ab quae vitae ipsam a maiores veniam voluptates blanditiis aliquid! Est mollitia, officiis, adipisci deserunt soluta nostrum cumque vitae aspernatur! Vel nulla quaerat officiis voluptates expedita error ipsum aliquam, ea nemo saepe amet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/section-->
+
+<section id="point" class="bg-info">
+  <div class="container text-light">
+    <div class="row">
+      <div class="col-12 col-md-12 offset-md-0">
+        <h2 class="text-center">POINT</h2>
+        <div class="row">
+          <div class="col-12 col-md-4 p-4"> <img src="images/header/kv_img__sq.png" class="img-fluid rounded-circle" alt="">
+            <h3 class="text-center mt-3">TITLE</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odio optio ex fugit at iure. Quisquam asperiores ab quae vitae </p>
+          </div>
+          <div class="col-12 col-md-4 p-4"> <img src="images/header/kv_img__sq.png" class="img-fluid rounded-circle" alt="">
+            <h3 class="text-center mt-3">TITLE</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odio optio ex fugit at iure. Quisquam asperiores ab quae vitae </p>
+          </div>
+          <div class="col-12 col-md-4 p-4"> <img src="images/header/kv_img__sq.png" class="img-fluid rounded-circle" alt="">
+            <h3 class="text-center mt-3">TITLE</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odio optio ex fugit at iure. Quisquam asperiores ab quae vitae </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/section-->
+
+<section id="gallery">
+  <div class="container">
+    <h2 class="text-center">GALLERY</h2>
+    <div class="row">
+      <div class="col-6 col-md-4 p-1 p-md-3"><a href="＃"><img class="img-fluid img-thumbnail" src="images/header/kv_img__sp.jpg" alt=""></a></div>
+      <div class="col-6 col-md-4 p-1 p-md-3"><a href="＃"><img class="img-fluid img-thumbnail" src="images/header/kv_img__sp.jpg" alt=""></a></div>
+      <div class="col-6 col-md-4 p-1 p-md-3"><a href="＃"><img class="img-fluid img-thumbnail" src="images/header/kv_img__sp.jpg" alt=""></a></div>
+      <div class="col-6 col-md-4 p-1 p-md-3"><a href="＃"><img class="img-fluid img-thumbnail" src="images/header/kv_img__sp.jpg" alt=""></a></div>
+      <div class="col-6 col-md-4 p-1 p-md-3"><a href="＃"><img class="img-fluid img-thumbnail" src="images/header/kv_img__sp.jpg" alt=""></a></div>
+      <div class="col-6 col-md-4 p-1 p-md-3"><a href="＃"><img class="img-fluid img-thumbnail" src="images/header/kv_img__sp.jpg" alt=""></a></div>
+    </div>
+  </div>
+</section>
+<!--/section--> 
+
+<script srsc="js/jquery-3.3.1.min.js"></script> 
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.2.1.js"></script>
 </body>
